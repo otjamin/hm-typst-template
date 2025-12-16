@@ -39,7 +39,7 @@
 
     #text(size: 14pt)[
       #if draft {
-        text(red)[
+        text(hm-color)[
           ENTWURF \
           Stand: #date-today]
       } else {

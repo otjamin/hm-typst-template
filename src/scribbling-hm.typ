@@ -185,7 +185,7 @@
           h(1fr)
           if draft {
             [
-              #text(red)[ENTWURF -- Stand: #custom-date-format(datetime.today(), lang: lang, pattern: "dd.MM.y")]
+              #text(hm-color)[ENTWURF -- Stand: #custom-date-format(datetime.today(), lang: lang, pattern: "dd.MM.y")]
             ]
           }
         }
